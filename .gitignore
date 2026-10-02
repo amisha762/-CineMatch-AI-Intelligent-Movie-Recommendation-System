@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Large archive/training files
+archive/
+
+# Local environment
+.env
+.env.*
+
+# Streamlit
+.streamlit/secrets.toml
+tfidf_vectorizer.pkl
+# Unused local/training files
+tfidf_vectorizer.pkl
+movie_recommendation_feature_engineering_step1.csv
+movie_recommendation_feature_engineering_step2.csv
+FeatureEngineering.ipynb
+training.ipynb

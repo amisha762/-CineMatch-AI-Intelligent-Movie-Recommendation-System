@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  cinematch-app:
+    build: .
+    container_name: cinematch_ai_app
+    ports:
+      - "8501:8501"
+    environment:
+      - TMDB_API_KEY=${TMDB_API_KEY:-3122f5f88b8b0f31282f2af4e9ec16da}
+    volumes:
+      - ./movie_recommendation.db:/app/movie_recommendation.db
+    restart: unless-stopped
