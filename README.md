@@ -2,6 +2,12 @@
 
 An AI-powered, full-stack Movie Recommendation and Discovery Platform built with **Streamlit**, **TF-IDF Natural Language Processing**, **Cosine Similarity**, **SQLite**, and the **The Movie Database (TMDB) API**.
 
+## 🚀 Live Demo
+
+Explore the Movie Recommendation System:
+
+[🎬 Open CineMatch – Movie Recommendation System](https://7kxcfxtcbbsr8qyvsczgay.streamlit.app/)
+
 ---
 
 ## 🌟 Key Features
